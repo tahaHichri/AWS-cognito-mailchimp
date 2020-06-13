@@ -1,0 +1,30 @@
+{
+  "name": "mailchimp-cognito-import",
+  "version": "1.0.0",
+  "description": "A package and a CLI tool to import cognito users into MailChimp contacts list.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tahaHichri/AWS-cognito-mailchimp.git"
+  },
+  "author": "Taha HICHRI <hishri.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tahaHichri/AWS-cognito-mailchimp/issues"
+  },
+  "homepage": "https://github.com/tahaHichri/AWS-cognito-mailchimp#readme",
+  "dependencies": {
+    "assert": "^2.0.0",
+    "async": "^3.2.0",
+    "aws-sdk": "^2.696.0",
+    "axios": "^0.19.2",
+    "bluebird": "^3.7.2",
+    "csv-writer": "^1.6.0",
+    "meow": "^7.0.1",
+    "terminal-kit": "^1.35.3",
+    "timer": "^1.0.1"
+  }
+}
