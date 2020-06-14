@@ -11,10 +11,14 @@ const axios = require('axios')
 
 const cli = meow(`
     Usage
-      cognito-mailchimp-import <user-pool-id> <mailchimp-api-key> <mailchimp-list-id> 
+      mailchimp-cognito-import <user-pool-id> <mailchimp-api-key> <mailchimp-list-id> 
     
       AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY can be specified in env variables or ~/.aws/credentials
-    
+      
+      --------
+    Useful links
+      How to get Mailchimp API key:          https://mailchimp.com/help/about-api-keys/#Find_or_generate_your_API_key
+      How to get Mailchimp Audience List ID: https://mailchimp.com/help/find-audience-id/
 `);
 
 
