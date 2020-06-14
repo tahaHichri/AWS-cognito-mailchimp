@@ -1,6 +1,6 @@
 {
   "name": "mailchimp-cognito-import",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A package and a CLI tool to import cognito users into MailChimp contacts list.",
   "main": "index.js",
   "scripts": {

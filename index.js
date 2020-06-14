@@ -1,4 +1,4 @@
-'use strict';
+#!/usr/bin/env node
 
 var AWS = require('aws-sdk');
 var assert = require('assert');
