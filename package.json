@@ -27,7 +27,7 @@
     "bluebird": "^3.7.2",
     "csv-writer": "^1.6.0",
     "meow": "^7.0.1",
-    "terminal-kit": "^1.35.3",
+    "terminal-kit": "^2.1.8",
     "timer": "^1.0.1"
   }
 }
